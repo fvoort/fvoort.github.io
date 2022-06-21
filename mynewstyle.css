@@ -56,13 +56,15 @@ a:hover {
 #full-width {
   display: flex;
   justify-content: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #container {
   max-width: 1100px;
   overflow: hidden;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 /* Portfolio */
@@ -96,15 +98,11 @@ a:hover {
 }
 
 /* Project Grid */
-.project {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  margin-bottom: 90px;
-}
-
-@media (max-width: 800px) {
+@media (min-width: 768px) {
   .project {
-    grid-template-columns: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 90px;
   }
 }
 
