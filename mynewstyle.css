@@ -1,0 +1,132 @@
+/* Global */
+* {
+  font-family: monospace;
+  background-color: black;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+a {
+  color: #f038ff;
+}
+
+a:hover {
+  transition-delay: 90ms;
+  color: black;
+  background-color: #f038ff;
+}
+
+/* Selection Color */
+::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: #f038ff;
+}
+
+::selection {
+  color: black;
+  background: #f038ff;
+}
+
+/* Scrollbar Color */
+* {
+  /* Code for Firefox */
+  scrollbar-width: 2px;
+  scrollbar-color: #f038ff black;
+}
+
+*::-webkit-scrollbar {
+  /* Code for Chrome, Edge and Safari */
+  width: 2px;
+}
+
+*::-webkit-scrollbar-track {
+  background: black;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #f038ff;
+  border: 2px solid #f038ff;
+  border-radius: 0px;
+}
+
+/* Page Width */
+#full-width {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#container {
+  max-width: 1100px;
+  overflow: hidden;
+}
+
+/* Portfolio */
+/* Header */
+#pheader {
+  border-bottom: 2px solid #f038ff;
+  margin-bottom: 90px;
+}
+
+#pheader p {
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#pheader img {
+  height: 1.2em;
+  margin-bottom: -6px;
+}
+
+/* Footer */
+#pfooter {
+  border-top: 2px solid #f038ff;
+  margin-top: 90px;
+}
+
+#pfooter p {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Project Grid */
+.project {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 90px;
+}
+
+@media (max-width: 800px) {
+  .project {
+    grid-template-columns: 100%;
+  }
+}
+
+/* Project Body */
+.project img {
+  width: 100%;
+}
+
+.pcell h2 {
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 7.5px;
+}
+
+.pcell h3 {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 7.5px;
+}
+
+.pcell p {
+  font-size: 16px;
+  margin-top: 7.5px;
+  margin-bottom: 15px;
+}
