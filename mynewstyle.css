@@ -103,7 +103,7 @@ a:hover {
   margin-bottom: 90px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   /* Desktop */
   .project {
     display: grid;
