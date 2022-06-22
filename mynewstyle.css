@@ -100,7 +100,6 @@ a:hover {
 .project {
   /* Mobile */
   display: grid;
-  grid-template-columns: 100%;
   margin-bottom: 90px;
 }
 
@@ -108,8 +107,8 @@ a:hover {
   /* Desktop */
   .project {
     display: grid;
-    grid-template-columns: 50% 50%;
     margin-bottom: 90px;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
