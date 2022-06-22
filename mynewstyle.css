@@ -97,12 +97,6 @@ a:hover {
 }
 
 /* Project Grid */
-.project {
-  /* Mobile */
-  display: grid;
-  margin-bottom: 90px;
-}
-
 @media (min-width: 900px) {
   /* Desktop */
   .project {
