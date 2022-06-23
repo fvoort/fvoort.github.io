@@ -56,8 +56,8 @@ a:hover {
 #full-width {
   display: flex;
   justify-content: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 #container {
@@ -70,13 +70,13 @@ a:hover {
 /* Header */
 #pheader {
   border-bottom: 2px solid #f038ff;
-  margin-bottom: 90px;
+  margin-bottom: 10%;
 }
 
 #pheader p {
   font-size: 22px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 #pheader img {
@@ -87,21 +87,24 @@ a:hover {
 /* Footer */
 #pfooter {
   border-top: 2px solid #f038ff;
-  margin-top: 90px;
+  margin-top: 10%;
 }
 
 #pfooter p {
   font-size: 16px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 /* Project Grid */
+.project {
+  margin-bottom: 10%;
+}
+
 @media (min-width: 900px) {
   /* Desktop */
   .project {
     display: grid;
-    margin-bottom: 90px;
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -113,18 +116,18 @@ a:hover {
 
 .pcell h2 {
   font-size: 22px;
-  margin-top: 15px;
-  margin-bottom: 7.5px;
+  margin-top: 1%;
+  margin-bottom: 0.5%;
 }
 
 .pcell h3 {
   font-size: 18px;
-  margin-top: 15px;
-  margin-bottom: 7.5px;
+  margin-top: 1%;
+  margin-bottom: 0.5%;
 }
 
 .pcell p {
   font-size: 16px;
-  margin-top: 7.5px;
-  margin-bottom: 15px;
+  margin-top: 0.5%;
+  margin-bottom: 1%;
 }
