@@ -1,4 +1,8 @@
 /* Global */
+:root {
+  --pink: #f038ff;
+}
+
 * {
   font-family: monospace;
   background-color: black;
@@ -9,32 +13,32 @@ h1,
 h2,
 h3,
 a {
-  color: #f038ff;
+  color: var(--pink);
 }
 
 a:hover {
   transition-delay: 90ms;
   color: black;
-  background-color: #f038ff;
+  background-color: var(--pink);
 }
 
 /* Selection Color */
 ::-moz-selection {
   /* Code for Firefox */
   color: black;
-  background: #f038ff;
+  background: var(--pink);
 }
 
 ::selection {
   color: black;
-  background: #f038ff;
+  background: var(--pink);
 }
 
 /* Scrollbar Color */
 * {
   /* Code for Firefox */
   scrollbar-width: 2px;
-  scrollbar-color: #f038ff black;
+  scrollbar-color: var(--pink) black;
 }
 
 *::-webkit-scrollbar {
@@ -47,8 +51,8 @@ a:hover {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #f038ff;
-  border: 2px solid #f038ff;
+  background-color: var(--pink);
+  border: 2px solid var(--pink);
   border-radius: 0px;
 }
 
@@ -69,7 +73,7 @@ a:hover {
 /* Portfolio */
 /* Header */
 #pheader {
-  border-bottom: 2px solid #f038ff;
+  border-bottom: 2px solid var(--pink);
   margin-bottom: 10%;
 }
 
@@ -86,7 +90,7 @@ a:hover {
 
 /* Footer */
 #pfooter {
-  border-top: 2px solid #f038ff;
+  border-top: 2px solid var(--pink);
   margin-top: 10%;
 }
 
